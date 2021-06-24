@@ -77,7 +77,7 @@ Rails.application.configure do
   Rails.application.configure do
   
     # Allow connections to local server.
-    % config.hosts.clear
+    config.hosts.clear
     end
 
 end
