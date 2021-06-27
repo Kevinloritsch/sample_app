@@ -1,6 +1,8 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+$light-gray: #777;
+
 body {
     padding-top: 150px;
 }
@@ -18,7 +20,7 @@ textarea {
     
 }
 
-.center h1 {
+h1 {
     margin-bottom: 10px;
 }
 
@@ -50,7 +52,7 @@ h1, h2, h3, h4, h5, h6 {
         margin-bottom: 30px;
         text-align: center;
         font-weight: normal;
-        color: #777;
+        color: $gray-light;
     }
 
     p {
@@ -77,26 +79,26 @@ h1, h2, h3, h4, h5, h6 {
     footer {
         margin-top: 45px;
         padding-top: 5px;
-        border-top: 1px solid #eaeaea;
-        color: #777;
+        border-top: 1px solid $gray-dark;
+        color: $gray-light;
         }
-    footer a {
-        color: #555;
+    a {
+        color: $gray;
     }
 
     footer a:hover {
 
-        color: #222
+        color: $gray-dark;
     }
             
-    footer small {
+    small {
         float:left;
     }
-    footer ul {
+    ul {
         float: right;
         list-style: none;
         }
-        footer ul li {
+        li {
         float: left;
         margin-left: 15px;
         }
