@@ -11,6 +11,8 @@ gem 'turbolinks', '5.2.1'
 gem 'jbuilder',   '2.10.0'
 gem 'rexml', '~> 3.2', '>= 3.2.4'
 gem 'bootsnap',   '1.7.2', require: false
+gem 'jquery-rails'
+
 
 group :development, :test do
   gem 'sqlite3', '1.4.2'
