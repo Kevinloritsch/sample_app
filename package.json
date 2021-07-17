@@ -7,7 +7,10 @@
     "@rails/activestorage": "^6.0.0",
     "@rails/ujs": "^6.0.0",
     "@rails/webpacker": "^5.4.0",
-    "turbolinks": "^5.2.0"
+    "turbolinks": "^5.2.0",
+    "webpack": "^5.45.1",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
   },
   "version": "0.1.0",
   "devDependencies": {
@@ -15,10 +18,8 @@
     "@babel/preset-env": "^7.14.7",
     "babel-loader": "^8.2.2",
     "global": "^4.4.0",
-    "local": "^0.3.3",
-    "webpack": "^5.45.1",
-    "webpack-cli": "^4.7.2",
-    "webpack-dev-server": "^3.11.2"
+    "local": "^0.3.3"
+    
   },
   "babel": {
     "presets": [
@@ -28,6 +29,5 @@
       "@babel/plugin-proposal-class-properties",
       "@babel/plugin-proposal-private-methods"
     ]
-  },
-  "build": "webpack --config build/webpack.conf.js --color"
+  }
 }
