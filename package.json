@@ -3,6 +3,7 @@
   "private": true,
   "dependencies": {
     "@babel/plugin-proposal-private-methods": "^7.14.5",
+    "@babel/preset-react": "^7.14.5",
     "@rails/actioncable": "^6.0.0",
     "@rails/activestorage": "^6.0.0",
     "@rails/ujs": "^6.0.0",
@@ -12,10 +13,7 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "turbolinks": "^5.2.0",
-    "webpack": "^5.45.1",
-    "webpack-cli": "^4.7.2",
-    "webpack-dev-server": "^3.11.2",
-    "@babel/preset-react": "^7.14.5"
+    "webpack-dev-server": "^3.11.2"
   },
   "version": "0.1.0",
   "devDependencies": {
@@ -23,7 +21,9 @@
     "@babel/preset-env": "^7.14.7",
     "babel-loader": "^8.2.2",
     "global": "^4.4.0",
-    "local": "^0.3.3"
+    "local": "^0.3.3",
+    "webpack": "^5.45.1",
+    "webpack-cli": "^4.7.2"
   },
   "babel": {
     "presets": [
