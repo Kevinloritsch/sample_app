@@ -10,16 +10,23 @@
     "turbolinks": "^5.2.0",
     "webpack": "^5.45.1",
     "webpack-cli": "^4.7.2",
-    "webpack-dev-server": "^3.11.2",
-    "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.4",
-    "babel-preset-env": "^1.6.1"
+    "webpack-dev-server": "^3.11.2"
   },
   "version": "0.1.0",
-
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.2.2",
+    "global": "^4.4.0",
+    "local": "^0.3.3"
+    
+  },
   "babel": {
     "presets": [
-      "./node_modules/@rails/webpacker/package/babel/preset.js"
+      "./node_modules/@rails/webpacker/package/babel/preset.js",
+      "@babel/preset-env",
+      "@babel/preset-react"
     ],
     "plugins": [
       "@babel/plugin-proposal-class-properties",
@@ -27,7 +34,6 @@
     ]
   },
   "scripts": {
-    "dev": "webpack --mode development",
-    "build": "webpack --mode production"
+    "build": "webpack --config prod.config.js"
   }
 }
