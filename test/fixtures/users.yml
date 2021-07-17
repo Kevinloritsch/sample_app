@@ -1,8 +1,3 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-kevin:
-  name: Kevin Loritsch
-  email: kevinloritsch@yahoo.com
-  password_digest: <%= User.digest('password') %>
-
 #empty until the legeeeendary chapter 8
