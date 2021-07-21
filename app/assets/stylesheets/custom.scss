@@ -87,9 +87,12 @@ h1, h2, h3, h4, h5, h6 {
         padding-top: 5px;
         border-top: 1px solid $gray-dark;
         color: $gray-light;
+        li{
+            float: right;
+        }
     }
     a {
-        color: $gray;
+        color: #6F8FAF	;
     }
 
     footer a:hover {
@@ -105,9 +108,12 @@ h1, h2, h3, h4, h5, h6 {
         list-style-type: none;
     }
     li {
-        float: right;
         margin-left: 15px;
+        float:right;
     }
+
+
+        
 
     /* miscellaneous */
     .debug_dump {
@@ -253,3 +259,21 @@ input, textarea, select, .uneditable-input {
       }
       
       .dropdown a:hover {background-color: #ddd;}
+
+
+
+
+/* Users index */
+
+.users {
+    list-style: none;
+    margin: 0;
+    float:left;
+    li {
+      overflow: auto;
+      padding: 10px 10px 10px 10px;
+      border-bottom: 1px solid $gray-lighter;
+      float:none;
+    }
+  }
+    
