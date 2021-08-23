@@ -19,4 +19,5 @@ class UsersSignupTest < ActionDispatch::IntegrationTest
       assert_select 'div.field_with_errors'
   end
 
+
 end
