@@ -1,5 +1,5 @@
 {
-  "name": "sample-app",
+  "name": "ke-twitter",
   "private": true,
   "dependencies": {
     "@rails/actioncable": "^6.0.0",
@@ -8,7 +8,7 @@
     "@rails/webpacker": "5.4.0",
     "turbolinks": "^5.2.0"
   },
-  "version": "0.1.0",
+  "version": "1.0.0",
   "devDependencies": {
     "webpack-dev-server": "^3.11.2"
   }
