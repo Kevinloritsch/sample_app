@@ -1,12 +1,10 @@
-
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 gem 'rails',                      '6.1.4.1'
-gem 'image_processing', '1.12.1'
-gem 'mini_magick', '4.9.5'
+gem 'image_processing',           '1.9.3'
+gem 'mini_magick',                '4.9.5'
 gem 'active_storage_validations', '0.8.9'
-gem 'file_validators',            '3.0.0'
 gem 'bcrypt',                     '3.1.13'
 gem 'faker',                      '2.11.0'
 gem 'will_paginate',              '3.3.0'
@@ -22,6 +20,7 @@ gem 'bootsnap',                   '1.7.2', require: false
 group :development, :test do
   gem 'sqlite3', '1.4.2'
   gem 'byebug',  '11.1.3', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'rexml', '~> 3.2', '>= 3.2.4'
 end
 
 group :development do
@@ -50,4 +49,4 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 # Uncomment the following line if you're running Rails
 # on a native Windows system:
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+# gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
